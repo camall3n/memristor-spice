@@ -9,4 +9,4 @@ Circuit simulator forked from Berkeley SPICE 3f5, with modifications to support 
 - Supports window function for modeling nonlinear dopant-drift.
 - Tested on Mac OS X 10.6.7
 
-Visit memristor.arlin.com for the development blog, and more information about the project.
+Visit [memristor.arlin.com](http://memristor.arlin.com) for the development blog, and more information about the project.
