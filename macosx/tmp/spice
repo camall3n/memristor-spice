@@ -1,0 +1,12 @@
+SPICE_HOST
+SPICED_LOG
+DEFAULT_EDITOR vi
+ASCII_RAWFILE 0
+VERSION_REVISION 3f5
+NOTICE
+DEVICES asrc bjt bsim1 bsim2 cap cccs ccvs csw dio ind isrc jfet ltra mem mes mos1 mos2 mos3 mos6 res sw tra urc vccs vcvs vsrc
+ANALYSES op dc tf ac tran pz disto noise sense
+S_SPICE_EXEC_DIR /Users/Cam/Dropbox/BerkeleySpice/sandbox4/macosx/bin
+S_SPICE_LIB_DIR /Users/Cam/Dropbox/BerkeleySpice/sandbox4/macosx/lib
+BUG_ADDR
+OPT_CHAR -

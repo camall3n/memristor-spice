@@ -1,0 +1,120 @@
+acan.c     - 'ACan'. perform AC analysis on a circuit
+acaskq.c   - 'ACaskQuest'. Query a particular AC analysis job for its parameters
+acsetp.c   - 'ACsetParm'. set parameters for AC analysis
+
+------------------------------------------------------------------------------------
+ckt*.c
+------------------------------------------------------------------------------------
+cktaccpt.c - 'CKTaccept'. "this is a driver program to iterate through all the various accept functions provided for the circuit elements in the given circuit."
+cktacct.c  - 'CKTacct'. "get the specified accounting item value in the given circuit."
+cktacdum.c - 'CKTacDump'. "dump the complex rhs vector into the rawfile."
+cktask.c   - 'CKTask'. "ask questions about a specified device."
+cktaskaq.c - 'CKTaskAnalQ'. Looks like a layer of abstraction above various types of analysis questions that can be asked.
+cktasknq.c - 'CKTaskNodQst'. "Ask about a parameter on a node."
+cktbindn.c - 'CKTbindNode'. "Bind a node of the specified device of the given type to its place in the specified circuit."
+cktbkdum.c - 'CKTbreakDump'. "Dump the breakpoint table associated with the given circuit."
+cktclrbk.c - 'CKTclrBreak'. "Delete the first time from the breakpoint table for the given circuit."
+cktcrte.c  - 'CKTcrtElt'. "Create a device of the specified type, with the given name, using the specified model in the named circuit."
+cktdelt.c  - 'CKTdelTask'. Probably deletes a task from the jobs list.
+cktdest.c  - 'CKTdestroy'. "Iterate through all the various destroy functions provided for the circuit elements in the given circuit."
+cktdisto.c - 'CKTdisto'. Probably does something related to distortion.
+cktdlti.c  - 'CKTdltInst'. "Delete the specified instance - NOT YET SUPPORTED IN SPICE." Code confirms it's unsupported.
+cktdltm.c  - 'CKTdltMod'. "Delete the specified model - NOT YET SUPPORTED IN SPICE." Code seems to contradict "unsupported" claim. (Not that it matters...)
+cktdltn.c  - 'CKTdltNod'. Probably the way to delete a node from a circuit.
+cktdojob.c - 'CKTdoJob'. Seems fairly straightforward, unrelated to custom components.
+cktdump.c  - 'CKTdump'. "Dump the rhs vector to stdout."
+cktfbran.c - 'CKTfndBranch'. "Iterate through all the various findBranch functions provided for the circuit elements in the given circuit."
+cktfdev.c  - 'CKTfndDev'. Shorthand for "find device"; finds a device in the circuit as quickly as possible, given the arguments provided.
+cktfnda.c  - 'CKTfndAnal'. "Find the given Analysis given its name and return the Analysis pointer."
+cktfndm.c  - 'CKTfndMod'. Finds a model in the circuit (as quickly as possible), given the arguments provided.
+cktfnode.c - 'CKTfndNode'. "Find the given node given its name and return the node pointer."
+cktftask.c - 'CKTfndTask'. "find the specified task - NOT YET SUPPORTED IN SPICE." Code confirms it's unsupported.
+cktgrnd.c  - 'CKTground'. "Specify the node to be the ground node of the given circuit."
+ckti2nod.c - 'CKTinst2Node'. "Get the name and node pointer for a node given a device it is bound to and the terminal of the device."
+cktic.c    - 'CKTic'. Probably for initial conditions.
+cktinit.c  - 'CKTinit'. Initialize a new circuit.
+cktlnkeq.c - 'CKTlinkEq'. "Link an already allocated node into the necessary structure." Not exactly clear what it does.
+cktload.c  - 'CKTload'. "Iterate through all the various load functions provided for the circuit elements in the given circuit."
+cktmapn.c  - 'CKTmapNode'. "Map the given node to the compact node numbering set of the specified circuit."
+cktmask.c  - 'CKTmodAsk'. "Ask questions about a specified device."
+cktmcrt.c  - 'CKTmodCrt'. "Create a device model of the specified type, with the given name in the circuit."
+cktmkcur.c - 'CKTmkCur'. "Make the given name a 'node' of type current in the specified circuit."
+cktmknod.c - 'CKTmkNode'. "Tentatively allocate a new circuit equation structure." Weird explanation, given the name... I mean, it looks like it just mallocs a new node. Doesn't do anything with the given circuit.
+cktmkvol.c - 'CKTmkVolt'. Okay this one must just have the wrong explanation. it should say: "make the given name a 'node' of type [voltage] in the specified circuit," rather than type "current".
+cktmpar.c  - 'CKTmodParam'. "Attach the given parameter to the specified model in the given circuit."
+cktnames.c - 'CKTnames' and 'CKTdnames'. The former is supposed to "output information on all circuit nodes/equations." Not sure what they mean by "equations," but it looks like this is actually accomplished by 'CKTdnames'. 'CKTnames' looks like it returns the same results in an array.
+cktnewan.c - 'CKTnewAnal'. Creates a new analysis object.
+cktneweq.c - 'CKTnewEq'. "Allocate a new circuit equation number (returned) in the specified circuit to contain a new equation or node returns -1 for failure to allocate a node number."
+cktnewn.c  - 'CKTnewNode'. Same description as 'CKTnewEq', but it seems to set the node type to "voltage" as well.
+cktnodn.c  - 'CKTnodName'. Same description as 'CKTnames', but it seems to instead return the name string for a node, given its node number. (And I'm not even sure 'CKTnames' does what its description says.)
+cktnoise.c - 'CKTnoise'. "Responsible for naming and evaluating all of the noise sources in the circuit.  It uses a series of subroutines to name and evaluate the sources associated with each model, and then it evaluates the noise for the entire circuit."
+cktntask.c - 'CKTnewTask'. Create a new task.
+cktnum2n.c - 'CKTnode'. "Find the given node given its name and return the node pointer."
+cktop.c    - 'CKTop' and 'CKTconvTest'. The former is probably for calculating the circuit operating point. The latter is to "Iterate through all the various convTest functions provided for the circuit elements in the given circuit."
+cktparam.c - 'CKTparam'. "Attach the given parameter to the specified device in the given circuit."
+cktpmnam.c - 'CKTpModName'. "Take a parameter by name and set it on the specified model."
+cktpname.c - 'CKTpName'. "Take a parameter by name and set it on the specified device."
+cktpzld.c  - 'CKTpzLoad'. 
+cktpzset.c - 'CKTpzSetup'. "Iterate through all the various pzSetup functions provided for the circuit elements in the given circuit, setup [sic]..."
+cktpzstr.c - 'CKTpzFindZeros'. "A variant of the "zeroin" method. [sic] This is a bit convoluted." The description is true! Let's hope the function name is all we need.
+cktsens.c  - 'sens_sens'. Alright, the comments are getting laughably unhelpful (when they even exist, that is).
+cktsetap.c - 'CKTsetAnalPm'. Probably sets an analysis parameter.
+cktsetbk.c - 'CKTsetBreak'. "Add the given time to the breakpoint table for the given circuit."
+cktsetnp.c - 'CKTsetNodPm'. "Set a parameter on a node."
+cktsetup.c - 'CKTsetup'. "Iterate through all the various setup functions provided for the circuit elements in the given circuit."
+cktsgen.c  - 'sgen_init' and 'sgen_next'. Who knows what they do... Or why they're in the "ckt/" folder...
+cktsopt.c  - 'CKTsetOpt'. "Set the specified 'opt' to have value 'value' in the given circuit 'ckt'."
+cktTemp.c  - 'CKTtemp'. "Iterate through all the various temperature dependency functions provided for the circuit elements in the given circuit."
+cktterr.c  - 'CKTterr'. Not sure... It uses divided differences to calculate something...
+ckttroub.c - 'CKTtrouble'. Called when there's TROUBLE... Tells you about the trouble.
+ckttrunc.c - 'CKTtrunc'. "Iterate through all the various truncation error functions provided for the circuit elements in the given circuit."
+ckttyplk.c - 'CKTtypelook'. "Look up the 'type' in the device description struct and return the appropriate index for the device found, or -1 for not found."
+------------------------------------------------------------------------------------
+
+daskq.c    - 'DaskQuest'. For distortion analysis, ask a parameter question.
+dcoaskq.c  - 'DCOaskQuest'. NOT YET SUPPORTED IN SPICE.
+dcop.c     - 'DCop'. Probably performs DC Operating Point analysis on a given circuit.
+dcosetp.c  - 'DCOsetParam'. NOT YET SUPPORTED IN SPICE.
+dctaskq.c  - 'DCTaskQuest'. NOT YET SUPPORTED IN SPICE.
+dctran.c   - 'DCtran'. Perform transient analysis on a given circuit.
+dctrcurv.c - 'DCtrCurv'. Plots something, looks DC related, depends on whether sources are current or voltage (or both?).
+dctsetp.c  - 'DCTsetParm'. Set parameter 'which' to 'value' in whatever a DCT is...
+distoan.c  - 'DISTOan'. Perform distortion analysis?
+dkerproc.c - 'DkerProc'. No idea...
+dloadfns.c - Wow, want a good laugh? Have a look at this file. The only useful comment:
+    /*
+    * all subFns are local to this file so they need not be renamed to
+    * the awful 7 letter standard; however, for reasons of uniformity,
+    * they are being renamed, losing all readability in the process.
+    * the renaming convention is as follows: 
+    *   example: 3v3F1m2
+    * 3v => 3 variable term xyz
+    * 2F1m2 => Two F1 minus F2
+    * therefore the old name would be : S3v3F1minusF2
+    * for the imaginary sub functions, the v is replaced by an i
+    */
+dsetparm.c - 'DsetParm'. Set parameters for "D", whatever that is.
+naskq.c    - 'NaskQuest'. Ask questions about "N", whatever that is.
+nevalsrc.c - 'NevalSrc'. "This routine evaluates the noise due to different physical phenomena. This includes the "shot" noise associated with dc currents in semiconductors, and the "thermal" noise associated with resistane."
+ninteg.c   - 'Nintegrate'. "Evaluates the integral of the function NOISE = a*(FREQUENCY)^(EXPONENT) given two points from the curve."
+noisean.c  - 'NOISEan'. Perform noise analysis.
+nsetparm.c - 'NsetParm'. Set parameters for "N", whatever that is.
+pzan.c     - 'PZan'. Perform pole-zero analysis.
+pzaskq.c   - 'PZaskQuest'. Ask questions about pole-zero analysis.
+pzsetp.c   - 'PZsetParm'. Set parameters for pole-zero analysis.
+sensaskq.c - 'SENSask'. Ask questions about sensitivity analysis.
+senssetp.c - 'SENSsetParam'. Set parameters for sensitivity analysis.
+tfanal.c   - 'TFanal'. Perform DC transfer function analysis.
+tfaskq.c   - 'TFaskQuest'. Ask questions about DC transfer function analysis.
+tfsetp.c   - 'TFsetParm'. Set parameters for DC transfer function analysis.
+tranaskq.c - 'TRANaskQuest'. Ask questions about transient analysis.
+traninit.c - 'TRANinit'. Initialize transient analysis.
+transetp.c - 'TRANsetParm'. Set parameters for transient analysis.
+
+
+
+
+
+
+
+

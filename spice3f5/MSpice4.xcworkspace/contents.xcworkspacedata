@@ -1,0 +1,3651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:notes-mem-modify.txt">
+   </FileRef>
+   <FileRef
+      location = "group:notes-run_sim.txt">
+   </FileRef>
+   <Group
+      location = "group:conf"
+      name = "conf">
+      <FileRef
+         location = "group:alpha">
+      </FileRef>
+      <FileRef
+         location = "group:ara">
+      </FileRef>
+      <FileRef
+         location = "group:batch">
+      </FileRef>
+      <FileRef
+         location = "group:cadgrp">
+      </FileRef>
+      <FileRef
+         location = "group:crown">
+      </FileRef>
+      <FileRef
+         location = "group:defaults">
+      </FileRef>
+      <FileRef
+         location = "group:dop">
+      </FileRef>
+      <FileRef
+         location = "group:gcc">
+      </FileRef>
+      <FileRef
+         location = "group:hp300">
+      </FileRef>
+      <FileRef
+         location = "group:hpux">
+      </FileRef>
+      <FileRef
+         location = "group:ipsc">
+      </FileRef>
+      <FileRef
+         location = "group:irix">
+      </FileRef>
+      <FileRef
+         location = "group:lewis">
+      </FileRef>
+      <FileRef
+         location = "group:macosx">
+      </FileRef>
+      <FileRef
+         location = "group:mips">
+      </FileRef>
+      <FileRef
+         location = "group:msdos">
+      </FileRef>
+      <FileRef
+         location = "group:next">
+      </FileRef>
+      <FileRef
+         location = "group:octspice">
+      </FileRef>
+      <FileRef
+         location = "group:rs6000">
+      </FileRef>
+      <FileRef
+         location = "group:sequent">
+      </FileRef>
+      <FileRef
+         location = "group:sun4">
+      </FileRef>
+      <FileRef
+         location = "group:vax">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:COPYRIGHT">
+   </FileRef>
+   <Group
+      location = "group:examples"
+      name = "examples">
+      <FileRef
+         location = "group:bjtnoise.cir">
+      </FileRef>
+      <FileRef
+         location = "group:bsim1tst.cir">
+      </FileRef>
+      <FileRef
+         location = "group:bsim2tst.cir">
+      </FileRef>
+      <FileRef
+         location = "group:diffpair.cir">
+      </FileRef>
+      <FileRef
+         location = "group:diodisto.cir">
+      </FileRef>
+      <FileRef
+         location = "group:ltra_1.cir">
+      </FileRef>
+      <FileRef
+         location = "group:ltra_2.cir">
+      </FileRef>
+      <FileRef
+         location = "group:ltra_3.cir">
+      </FileRef>
+      <FileRef
+         location = "group:makedefs">
+      </FileRef>
+      <FileRef
+         location = "group:m.cir">
+      </FileRef>
+      <FileRef
+         location = "group:../File">
+      </FileRef>
+      <FileRef
+         location = "group:mixdisto.cir">
+      </FileRef>
+      <FileRef
+         location = "group:mos6inv.cir">
+      </FileRef>
+      <FileRef
+         location = "group:mosamp2.cir">
+      </FileRef>
+      <FileRef
+         location = "group:mosmem.cir">
+      </FileRef>
+      <FileRef
+         location = "group:process.mod">
+      </FileRef>
+      <FileRef
+         location = "group:process.pro">
+      </FileRef>
+      <FileRef
+         location = "group:pz2.cir">
+      </FileRef>
+      <FileRef
+         location = "group:pzt.cir">
+      </FileRef>
+      <FileRef
+         location = "group:rc.cir">
+      </FileRef>
+      <FileRef
+         location = "group:rca3040.cir">
+      </FileRef>
+      <FileRef
+         location = "group:resnoise.cir">
+      </FileRef>
+      <FileRef
+         location = "group:rtlinv.cir">
+      </FileRef>
+      <FileRef
+         location = "group:schmitt.cir">
+      </FileRef>
+      <FileRef
+         location = "group:simplepz.cir">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:fixes">
+   </FileRef>
+   <Group
+      location = "group:lib"
+      name = "lib">
+      <Group
+         location = "group:helpdir"
+         name = "helpdir">
+         <FileRef
+            location = "group:spice.txt">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:makedefs">
+      </FileRef>
+      <FileRef
+         location = "group:makeops">
+      </FileRef>
+      <FileRef
+         location = "group:mfbcap">
+      </FileRef>
+      <FileRef
+         location = "group:news">
+      </FileRef>
+      <Group
+         location = "group:scripts"
+         name = "scripts">
+         <FileRef
+            location = "group:setplot">
+         </FileRef>
+         <FileRef
+            location = "group:spinit">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:makedefs">
+   </FileRef>
+   <Group
+      location = "group:man"
+      name = "man">
+      <Group
+         location = "group:man1"
+         name = "man1">
+         <FileRef
+            location = "group:nutmeg.0">
+         </FileRef>
+         <FileRef
+            location = "group:nutmeg.1">
+         </FileRef>
+         <FileRef
+            location = "group:sconvert.0">
+         </FileRef>
+         <FileRef
+            location = "group:sconvert.1">
+         </FileRef>
+         <FileRef
+            location = "group:spice.0">
+         </FileRef>
+         <FileRef
+            location = "group:spice.1">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:man3"
+         name = "man3">
+         <FileRef
+            location = "group:mfb.0">
+         </FileRef>
+         <FileRef
+            location = "group:mfb.3">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:man5"
+         name = "man5">
+         <FileRef
+            location = "group:mfbcap.0">
+         </FileRef>
+         <FileRef
+            location = "group:mfbcap.5">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:manifest">
+   </FileRef>
+   <FileRef
+      location = "group:msc51.bat">
+   </FileRef>
+   <Group
+      location = "group:notes"
+      name = "notes">
+      <FileRef
+         location = "group:dbx">
+      </FileRef>
+      <FileRef
+         location = "group:internal">
+      </FileRef>
+      <FileRef
+         location = "group:mac_port">
+      </FileRef>
+      <FileRef
+         location = "group:porting">
+      </FileRef>
+      <FileRef
+         location = "group:spice2">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:readme">
+   </FileRef>
+   <Group
+      location = "group:src"
+      name = "src">
+      <Group
+         location = "group:bin"
+         name = "bin">
+         <FileRef
+            location = "group:bconf.c">
+         </FileRef>
+         <FileRef
+            location = "group:bspice.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:cconf.c">
+         </FileRef>
+         <FileRef
+            location = "group:config.c">
+         </FileRef>
+         <FileRef
+            location = "group:cspice.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:help.c">
+         </FileRef>
+         <FileRef
+            location = "group:help.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:makedefs">
+         </FileRef>
+         <FileRef
+            location = "group:makeidx.c">
+         </FileRef>
+         <FileRef
+            location = "group:makeidx.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:makeops">
+         </FileRef>
+         <FileRef
+            location = "group:msc51.bat">
+         </FileRef>
+         <FileRef
+            location = "group:multidec.c">
+         </FileRef>
+         <FileRef
+            location = "group:multidec.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:nconfig.c">
+         </FileRef>
+         <FileRef
+            location = "group:nnconf.c">
+         </FileRef>
+         <FileRef
+            location = "group:nutmeg.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:proc2mod.c">
+         </FileRef>
+         <FileRef
+            location = "group:proc2mod.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:sconvert.c">
+         </FileRef>
+         <FileRef
+            location = "group:sconvert.lnk">
+         </FileRef>
+         <FileRef
+            location = "group:tunepc.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:include"
+         name = "include">
+         <FileRef
+            location = "group:acdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:capabil.h">
+         </FileRef>
+         <FileRef
+            location = "group:cktdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:complex.h">
+         </FileRef>
+         <FileRef
+            location = "group:config.h">
+         </FileRef>
+         <FileRef
+            location = "group:const.h">
+         </FileRef>
+         <FileRef
+            location = "group:cpdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:cpextern.h">
+         </FileRef>
+         <FileRef
+            location = "group:cpstd.h">
+         </FileRef>
+         <FileRef
+            location = "group:devdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:dgen.h">
+         </FileRef>
+         <FileRef
+            location = "group:distodef.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftecmath.h">
+         </FileRef>
+         <FileRef
+            location = "group:fteconst.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftedata.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftedbgra.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftedebug.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftedefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftedev.h">
+         </FileRef>
+         <FileRef
+            location = "group:fteext.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftegraf.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftegraph.h">
+         </FileRef>
+         <FileRef
+            location = "group:ftehelp.h">
+         </FileRef>
+         <FileRef
+            location = "group:fteinp.h">
+         </FileRef>
+         <FileRef
+            location = "group:fteinput.h">
+         </FileRef>
+         <FileRef
+            location = "group:fteparse.h">
+         </FileRef>
+         <FileRef
+            location = "group:gendefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:hlpdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:hw.h">
+         </FileRef>
+         <FileRef
+            location = "group:hw_ieee.h">
+         </FileRef>
+         <FileRef
+            location = "group:hw_vax.h">
+         </FileRef>
+         <FileRef
+            location = "group:iferrmsg.h">
+         </FileRef>
+         <FileRef
+            location = "group:ifsim.h">
+         </FileRef>
+         <FileRef
+            location = "group:inpdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:inpmacs.h">
+         </FileRef>
+         <FileRef
+            location = "group:inpptree.h">
+         </FileRef>
+         <FileRef
+            location = "group:jobdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:makedefs">
+         </FileRef>
+         <FileRef
+            location = "group:mfb.h">
+         </FileRef>
+         <FileRef
+            location = "group:misc.h">
+         </FileRef>
+         <FileRef
+            location = "group:noisedef.h">
+         </FileRef>
+         <FileRef
+            location = "group:opdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:optdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_aix.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_bsd.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_dynix.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_hpux.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_ipsc.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_mac.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_macosx.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_msdos.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_osf.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_sun.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_sysv.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_ultrx.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_unix.h">
+         </FileRef>
+         <FileRef
+            location = "group:os_vms.h">
+         </FileRef>
+         <FileRef
+            location = "group:patchlev.h">
+         </FileRef>
+         <FileRef
+            location = "group:port.h">
+         </FileRef>
+         <FileRef
+            location = "group:pzdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:sen2defs.h">
+         </FileRef>
+         <FileRef
+            location = "group:sensdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:sensgen.h">
+         </FileRef>
+         <FileRef
+            location = "group:smpdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:spconfig.h">
+         </FileRef>
+         <FileRef
+            location = "group:sperror.h">
+         </FileRef>
+         <FileRef
+            location = "group:spice.h">
+         </FileRef>
+         <FileRef
+            location = "group:spmatrix.h">
+         </FileRef>
+         <FileRef
+            location = "group:strext.h">
+         </FileRef>
+         <FileRef
+            location = "group:suffix.h">
+         </FileRef>
+         <FileRef
+            location = "group:tfdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:trandefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:trcvdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:tskdefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:util.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:lib"
+         name = "lib">
+         <Group
+            location = "group:ckt"
+            name = "ckt">
+            <FileRef
+               location = "group:acan.c">
+            </FileRef>
+            <FileRef
+               location = "group:acaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:notes.txt">
+            </FileRef>
+            <FileRef
+               location = "group:acsetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktaccpt.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktacct.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktacdum.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktask.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktaskaq.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktasknq.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktbindn.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktbkdum.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktclrbk.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktcrte.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdelt.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdest.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdisto.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdlti.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdltm.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdltn.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdojob.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktdump.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktfbran.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktfdev.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktfnda.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktfndm.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktfnode.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktftask.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktgrnd.c">
+            </FileRef>
+            <FileRef
+               location = "group:ckti2nod.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktic.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktinit.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktlnkeq.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktload.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmapn.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmask.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmcrt.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmkcur.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmknod.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmkvol.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktmpar.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnames.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnewan.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktneweq.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnewn.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnodn.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnoise.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktntask.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktnum2n.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktop.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktparam.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktpmnam.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktpname.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktpzld.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktpzset.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktpzstr.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsens.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsetap.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsetbk.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsetnp.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsetup.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsgen.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktsopt.c">
+            </FileRef>
+            <FileRef
+               location = "group:ckttemp.c">
+            </FileRef>
+            <FileRef
+               location = "group:cktterr.c">
+            </FileRef>
+            <FileRef
+               location = "group:ckttroub.c">
+            </FileRef>
+            <FileRef
+               location = "group:ckttrunc.c">
+            </FileRef>
+            <FileRef
+               location = "group:ckttyplk.c">
+            </FileRef>
+            <FileRef
+               location = "group:daskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:dcoaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:dcop.c">
+            </FileRef>
+            <FileRef
+               location = "group:dcosetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:dctaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:dctran.c">
+            </FileRef>
+            <FileRef
+               location = "group:dctrcurv.c">
+            </FileRef>
+            <FileRef
+               location = "group:dctsetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:distoan.c">
+            </FileRef>
+            <FileRef
+               location = "group:dkerproc.c">
+            </FileRef>
+            <FileRef
+               location = "group:dloadfns.c">
+            </FileRef>
+            <FileRef
+               location = "group:dsetparm.c">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:naskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:nevalsrc.c">
+            </FileRef>
+            <FileRef
+               location = "group:ninteg.c">
+            </FileRef>
+            <FileRef
+               location = "group:noisean.c">
+            </FileRef>
+            <FileRef
+               location = "group:nsetparm.c">
+            </FileRef>
+            <FileRef
+               location = "group:pzan.c">
+            </FileRef>
+            <FileRef
+               location = "group:pzaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:pzsetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:sensaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:senssetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:tfanal.c">
+            </FileRef>
+            <FileRef
+               location = "group:tfaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:tfsetp.c">
+            </FileRef>
+            <FileRef
+               location = "group:tranaskq.c">
+            </FileRef>
+            <FileRef
+               location = "group:traninit.c">
+            </FileRef>
+            <FileRef
+               location = "group:transetp.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:cp"
+            name = "cp">
+            <FileRef
+               location = "group:alias.c">
+            </FileRef>
+            <FileRef
+               location = "group:backq.c">
+            </FileRef>
+            <FileRef
+               location = "group:complete.c">
+            </FileRef>
+            <FileRef
+               location = "group:cshpar.c">
+            </FileRef>
+            <FileRef
+               location = "group:front.c">
+            </FileRef>
+            <FileRef
+               location = "group:glob.c">
+            </FileRef>
+            <FileRef
+               location = "group:history.c">
+            </FileRef>
+            <FileRef
+               location = "group:input.c">
+            </FileRef>
+            <FileRef
+               location = "group:lexical.c">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:modify.c">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:numparse.c">
+            </FileRef>
+            <FileRef
+               location = "group:output.c">
+            </FileRef>
+            <FileRef
+               location = "group:quote.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:spawn.c">
+            </FileRef>
+            <FileRef
+               location = "group:std.c">
+            </FileRef>
+            <FileRef
+               location = "group:unixcom.c">
+            </FileRef>
+            <FileRef
+               location = "group:var2.c">
+            </FileRef>
+            <FileRef
+               location = "group:variable.c">
+            </FileRef>
+            <FileRef
+               location = "group:wlist.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:dev"
+            name = "dev">
+            <Group
+               location = "group:asrc"
+               name = "asrc">
+               <FileRef
+                  location = "group:asrc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcconv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcfbr.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:asrcset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bjt"
+               name = "bjt">
+               <FileRef
+                  location = "group:bjt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtconv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtdisto.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtdset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtgetic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjtsupd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjttemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bjttrunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bsim1"
+               name = "bsim1">
+               <FileRef
+                  location = "group:b1.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1acld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1cvtest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1del.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1disto.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1dset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1eval.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1getic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1ld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1mdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1moscap.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1pzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b1trunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim1def.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim1ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim1itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bsim2"
+               name = "bsim2">
+               <FileRef
+                  location = "group:b2.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2acld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2cvtest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2del.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2eval.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2getic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2ld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2mdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2moscap.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2pzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:b2trunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim2def.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim2ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bsim2itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:cap"
+               name = "cap">
+               <FileRef
+                  location = "group:cap.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:capdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:capgetic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:capload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cappzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:capsupd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:captemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:captrunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:cccs"
+               name = "cccs">
+               <FileRef
+                  location = "group:cccs.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccspar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccspzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccssacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccssld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccssprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cccssset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ccvs"
+               name = "ccvs">
+               <FileRef
+                  location = "group:ccvs.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsfbr.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvspar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvspzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvssacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvssld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvssprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ccvssset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:csw"
+               name = "csw">
+               <FileRef
+                  location = "group:csw.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cswdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cswitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:cswload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cswsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:devsup.c">
+            </FileRef>
+            <Group
+               location = "group:dio"
+               name = "dio">
+               <FileRef
+                  location = "group:dio.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioconv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diodefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:diodel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diodest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diodisto.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diodset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:diogetic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:dioload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diomask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diomdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diompar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dionoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:dioparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diopzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diosupd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diotemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:diotrunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:disto"
+               name = "disto">
+               <FileRef
+                  location = "group:atander.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cosderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:cubeder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:divderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:equalder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:expderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:exscript">
+               </FileRef>
+               <FileRef
+                  location = "group:invderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:multder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:plusder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:powderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:sqrtder.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tanderiv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:timesder.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ind"
+               name = "ind">
+               <FileRef
+                  location = "group:ind.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:inddefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:inddel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:inddest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:inditf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:indload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indsupd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:indtrunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:mutacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutsprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mutsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:isrc"
+               name = "isrc">
+               <FileRef
+                  location = "group:isrc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcacct.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrcpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:isrctemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:jfet"
+               name = "jfet">
+               <FileRef
+                  location = "group:jfet.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetdist.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetdset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetnoi.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfetset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfettemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:jfettrun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ltra"
+               name = "ltra">
+               <FileRef
+                  location = "group:ltra.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraacct.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltradefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ltradel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltradest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltramask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltramdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltramisc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltrampar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltrapar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltraset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltratemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ltratrun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <Group
+               location = "group:mem"
+               name = "mem">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:mem.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:memdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:memitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:memload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:mempzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memsacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memsetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memsprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:memtemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:timelist.c">
+               </FileRef>
+               <FileRef
+                  location = "group:timelist.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mes"
+               name = "mes">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:mes.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mesdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesdisto.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesdset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mesgetic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mesload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mesparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mespzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:messetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mestemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mestrunc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mos1"
+               name = "mos1">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1acld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1conv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1defs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1del.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1dist.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1dset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1ic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1load.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1mdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1noi.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1pzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1sacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1sld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1sprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1sset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1supd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos1trun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mos2"
+               name = "mos2">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2acld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2conv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2defs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2del.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2dist.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2dset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2ic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2load.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2mdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2noi.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2pzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2sacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2sld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2sprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2sset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2supd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos2trun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mos3"
+               name = "mos3">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3acld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3conv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3defs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3del.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3dist.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3dset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3ic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3load.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3mdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3noi.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3pzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3sacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3sld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3sprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3sset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3supd.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos3trun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mos6"
+               name = "mos6">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6ask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6conv.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6defs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6dest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6ext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6ic.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6itf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6load.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6mask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6mpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6par.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6set.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6temp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:mos6trun.c">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <Group
+               location = "group:res"
+               name = "res">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:res.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:resdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:resitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:resload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:resparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:respzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ressacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ressetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ressload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ressprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:ressset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:restemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:notes.txt">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <Group
+               location = "group:sw"
+               name = "sw">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:sw.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swacload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:swdelete.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:switf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:swload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swmparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swnoise.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swpzload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:swsetup.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:tra"
+               name = "tra">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:tra.c">
+               </FileRef>
+               <FileRef
+                  location = "group:traacct.c">
+               </FileRef>
+               <FileRef
+                  location = "group:traacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:traask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tradefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:tradel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tradest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:traext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:traitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:traload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tramdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:traparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:trasetup.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tratemp.c">
+               </FileRef>
+               <FileRef
+                  location = "group:tratrunc.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:urc"
+               name = "urc">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:urc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:urcdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:urcitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:urcmask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcmpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcparam.c">
+               </FileRef>
+               <FileRef
+                  location = "group:urcsetup.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:vccs"
+               name = "vccs">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:vccs.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccspar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccspzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccssacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccssld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccssprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vccssset.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:vcvs"
+               name = "vcvs">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvs.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsfbr.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvspar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvspzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvssacl.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvsset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvssld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvssprt.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vcvssset.c">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:vsrc"
+               name = "vsrc">
+               <FileRef
+                  location = "group:makedefs">
+               </FileRef>
+               <FileRef
+                  location = "group:msc51.bat">
+               </FileRef>
+               <FileRef
+                  location = "group:response.lib">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrc.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcacct.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcacld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcask.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcdefs.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcdest.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcext.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcfbr.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcitf.h">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcload.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcmdel.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcpar.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcpzld.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcpzs.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrcset.c">
+               </FileRef>
+               <FileRef
+                  location = "group:vsrctemp.c">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:fte"
+            name = "fte">
+            <FileRef
+               location = "group:agraf.c">
+            </FileRef>
+            <FileRef
+               location = "group:arg.c">
+            </FileRef>
+            <FileRef
+               location = "group:aspice.c">
+            </FileRef>
+            <FileRef
+               location = "group:breakp.c">
+            </FileRef>
+            <FileRef
+               location = "group:breakp2.c">
+            </FileRef>
+            <FileRef
+               location = "group:circuits.c">
+            </FileRef>
+            <FileRef
+               location = "group:clip.c">
+            </FileRef>
+            <FileRef
+               location = "group:cmath1.c">
+            </FileRef>
+            <FileRef
+               location = "group:cmath2.c">
+            </FileRef>
+            <FileRef
+               location = "group:cmath3.c">
+            </FileRef>
+            <FileRef
+               location = "group:cmath4.c">
+            </FileRef>
+            <FileRef
+               location = "group:compose.c">
+            </FileRef>
+            <FileRef
+               location = "group:cpitf.c">
+            </FileRef>
+            <FileRef
+               location = "group:debugcom.c">
+            </FileRef>
+            <FileRef
+               location = "group:define.c">
+            </FileRef>
+            <FileRef
+               location = "group:device.c">
+            </FileRef>
+            <FileRef
+               location = "group:diff.c">
+            </FileRef>
+            <FileRef
+               location = "group:dimens.c">
+            </FileRef>
+            <FileRef
+               location = "group:display.c">
+            </FileRef>
+            <FileRef
+               location = "group:doplot.c">
+            </FileRef>
+            <FileRef
+               location = "group:dotcards.c">
+            </FileRef>
+            <FileRef
+               location = "group:error.c">
+            </FileRef>
+            <FileRef
+               location = "group:evaluate.c">
+            </FileRef>
+            <FileRef
+               location = "group:fourier.c">
+            </FileRef>
+            <FileRef
+               location = "group:gens.c">
+            </FileRef>
+            <FileRef
+               location = "group:graf.c">
+            </FileRef>
+            <FileRef
+               location = "group:graphdb.c">
+            </FileRef>
+            <FileRef
+               location = "group:grid.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpcom.c">
+            </FileRef>
+            <FileRef
+               location = "group:interp.c">
+            </FileRef>
+            <FileRef
+               location = "group:linear.c">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:mfb.c">
+            </FileRef>
+            <FileRef
+               location = "group:misccoms.c">
+            </FileRef>
+            <FileRef
+               location = "group:miscvars.c">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:newcoms.c">
+            </FileRef>
+            <FileRef
+               location = "group:nutctab.c">
+            </FileRef>
+            <FileRef
+               location = "group:nutinp.c">
+            </FileRef>
+            <FileRef
+               location = "group:nutmegif.c">
+            </FileRef>
+            <FileRef
+               location = "group:options.c">
+            </FileRef>
+            <FileRef
+               location = "group:outitf.c">
+            </FileRef>
+            <FileRef
+               location = "group:parse.c">
+            </FileRef>
+            <FileRef
+               location = "group:plot5.c">
+            </FileRef>
+            <FileRef
+               location = "group:plotcurv.c">
+            </FileRef>
+            <FileRef
+               location = "group:points.c">
+            </FileRef>
+            <FileRef
+               location = "group:postcoms.c">
+            </FileRef>
+            <FileRef
+               location = "group:postsc.c">
+            </FileRef>
+            <FileRef
+               location = "group:rawfile.c">
+            </FileRef>
+            <FileRef
+               location = "group:resource.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:runcoms.c">
+            </FileRef>
+            <FileRef
+               location = "group:runcoms2.c">
+            </FileRef>
+            <FileRef
+               location = "group:shyu.c">
+            </FileRef>
+            <FileRef
+               location = "group:signal.c">
+            </FileRef>
+            <FileRef
+               location = "group:spcmdtab.c">
+            </FileRef>
+            <FileRef
+               location = "group:spiceif.c">
+            </FileRef>
+            <FileRef
+               location = "group:subckt.c">
+            </FileRef>
+            <FileRef
+               location = "group:types.c">
+            </FileRef>
+            <FileRef
+               location = "group:vectors.c">
+            </FileRef>
+            <FileRef
+               location = "group:where.c">
+            </FileRef>
+            <FileRef
+               location = "group:x10.c">
+            </FileRef>
+            <FileRef
+               location = "group:x11.c">
+            </FileRef>
+            <FileRef
+               location = "group:xgraph.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hlp"
+            name = "hlp">
+            <FileRef
+               location = "group:help.c">
+            </FileRef>
+            <FileRef
+               location = "group:help.cur">
+            </FileRef>
+            <FileRef
+               location = "group:helpmask.cur">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:provide.c">
+            </FileRef>
+            <FileRef
+               location = "group:readhelp.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:textdisp.c">
+            </FileRef>
+            <FileRef
+               location = "group:wait.cur">
+            </FileRef>
+            <FileRef
+               location = "group:waitmask.cur">
+            </FileRef>
+            <FileRef
+               location = "group:x11disp.c">
+            </FileRef>
+            <FileRef
+               location = "group:xdisplay.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:inp"
+            name = "inp">
+            <FileRef
+               location = "group:ifeval.c">
+            </FileRef>
+            <FileRef
+               location = "group:ifnewuid.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2a.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2b.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2c.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2d.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2dot.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2e.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2f.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2g.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2h.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2i.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2j.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2k.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2l.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2m.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2o.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2q.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2r.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2s.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2t.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2u.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2v.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2w.c">
+            </FileRef>
+            <FileRef
+               location = "group:inp2z.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpaname.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpapnam.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpcfix.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpdomod.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpdoopt.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpdpar.c">
+            </FileRef>
+            <FileRef
+               location = "group:inperrc.c">
+            </FileRef>
+            <FileRef
+               location = "group:inperror.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpeval.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpfindl.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpgmod.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpgstr.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpgtitl.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpgtok.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpgval.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpkmods.c">
+            </FileRef>
+            <FileRef
+               location = "group:inplist.c">
+            </FileRef>
+            <FileRef
+               location = "group:inplkmod.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpmkmod.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpmktmp.c">
+            </FileRef>
+            <FileRef
+               location = "group:inppas1.c">
+            </FileRef>
+            <FileRef
+               location = "group:inppas2.c">
+            </FileRef>
+            <FileRef
+               location = "group:inppname.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpptree.c">
+            </FileRef>
+            <FileRef
+               location = "group:inpsymt.c">
+            </FileRef>
+            <FileRef
+               location = "group:inptyplk.c">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:ptfuncs.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:sperror.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mac"
+            name = "mac">
+            <FileRef
+               location = "group:confmac.c">
+            </FileRef>
+            <FileRef
+               location = "group:mac.c">
+            </FileRef>
+            <FileRef
+               location = "group:tunemac.c">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:makedefs">
+         </FileRef>
+         <Group
+            location = "group:mfb"
+            name = "mfb">
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:mfb3d.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbbasic.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbcaps.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbclip.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbdec.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbgnc.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbio.c">
+            </FileRef>
+            <FileRef
+               location = "group:mfbtext.c">
+            </FileRef>
+            <FileRef
+               location = "group:paths.c">
+            </FileRef>
+            <FileRef
+               location = "group:vmsio.c">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mfbpc"
+            name = "mfbpc">
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:mfbpc.c">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:misc"
+            name = "misc">
+            <FileRef
+               location = "group:alloc.c">
+            </FileRef>
+            <FileRef
+               location = "group:dos_dirs.c">
+            </FileRef>
+            <FileRef
+               location = "group:dup2.c">
+            </FileRef>
+            <FileRef
+               location = "group:ivars.c">
+            </FileRef>
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:math.c">
+            </FileRef>
+            <FileRef
+               location = "group:mktemp.c">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:printnum.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:string.c">
+            </FileRef>
+            <FileRef
+               location = "group:tilde.c">
+            </FileRef>
+            <FileRef
+               location = "group:time.c">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:msc51.bat">
+         </FileRef>
+         <Group
+            location = "group:ni"
+            name = "ni">
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:niaciter.c">
+            </FileRef>
+            <FileRef
+               location = "group:nicomcof.c">
+            </FileRef>
+            <FileRef
+               location = "group:niconv.c">
+            </FileRef>
+            <FileRef
+               location = "group:nidest.c">
+            </FileRef>
+            <FileRef
+               location = "group:niditer.c">
+            </FileRef>
+            <FileRef
+               location = "group:niinit.c">
+            </FileRef>
+            <FileRef
+               location = "group:niinteg.c">
+            </FileRef>
+            <FileRef
+               location = "group:niiter.c">
+            </FileRef>
+            <FileRef
+               location = "group:niniter.c">
+            </FileRef>
+            <FileRef
+               location = "group:nipred.c">
+            </FileRef>
+            <FileRef
+               location = "group:nipzmeth.c">
+            </FileRef>
+            <FileRef
+               location = "group:nireinit.c">
+            </FileRef>
+            <FileRef
+               location = "group:nisenre.c">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sparse"
+            name = "sparse">
+            <FileRef
+               location = "group:makedefs">
+            </FileRef>
+            <FileRef
+               location = "group:msc51.bat">
+            </FileRef>
+            <FileRef
+               location = "group:response.lib">
+            </FileRef>
+            <FileRef
+               location = "group:spalloc.c">
+            </FileRef>
+            <FileRef
+               location = "group:spbuild.c">
+            </FileRef>
+            <FileRef
+               location = "group:spdefs.h">
+            </FileRef>
+            <FileRef
+               location = "group:spextra.c">
+            </FileRef>
+            <FileRef
+               location = "group:spfactor.c">
+            </FileRef>
+            <FileRef
+               location = "group:spoutput.c">
+            </FileRef>
+            <FileRef
+               location = "group:sprev">
+            </FileRef>
+            <FileRef
+               location = "group:spsmp.c">
+            </FileRef>
+            <FileRef
+               location = "group:spsolve.c">
+            </FileRef>
+            <FileRef
+               location = "group:sputils.c">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:makedefs">
+      </FileRef>
+      <FileRef
+         location = "group:msc51.bat">
+      </FileRef>
+      <Group
+         location = "group:unsuppo"
+         name = "unsuppo">
+         <FileRef
+            location = "group:cktsenac.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsenup.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsncom.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsndct.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsnld.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsnprt.c">
+         </FileRef>
+         <FileRef
+            location = "group:cktsnset.c">
+         </FileRef>
+         <FileRef
+            location = "group:readme">
+         </FileRef>
+         <FileRef
+            location = "group:sen2dest.c">
+         </FileRef>
+         <FileRef
+            location = "group:sen2setp.c">
+         </FileRef>
+         <FileRef
+            location = "group:snaskq.c">
+         </FileRef>
+         <FileRef
+            location = "group:snstart.c">
+         </FileRef>
+         <FileRef
+            location = "group:spiced.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:util"
+      name = "util">
+      <FileRef
+         location = "group:build">
+      </FileRef>
+      <FileRef
+         location = "group:delall.bat">
+      </FileRef>
+      <FileRef
+         location = "group:dependit.sh">
+      </FileRef>
+      <FileRef
+         location = "group:localize.sh">
+      </FileRef>
+      <FileRef
+         location = "group:makedev.sh">
+      </FileRef>
+      <FileRef
+         location = "group:makelib.sh">
+      </FileRef>
+      <FileRef
+         location = "group:mkdelall.sh">
+      </FileRef>
+      <FileRef
+         location = "group:mkdir.sh">
+      </FileRef>
+      <FileRef
+         location = "group:mkvers.sh">
+      </FileRef>
+      <FileRef
+         location = "group:packpc.sh">
+      </FileRef>
+      <Group
+         location = "group:skeleton"
+         name = "skeleton">
+         <FileRef
+            location = "group:clean.bld">
+         </FileRef>
+         <FileRef
+            location = "group:default.bld">
+         </FileRef>
+         <FileRef
+            location = "group:distrib.bld">
+         </FileRef>
+         <FileRef
+            location = "group:install.bld">
+         </FileRef>
+         <FileRef
+            location = "group:make_def.bd">
+         </FileRef>
+         <FileRef
+            location = "group:make_std.bd">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

@@ -1,0 +1,5 @@
+INCX	= -I/usr/X11/include/X11/Xaw -I/usr/X11/include/X11/Xmu \
+	  -I/usr/X11/include/X11
+LIBX	= -L/usr/X11/lib/ -lXaw -lXt -lXext -lXmu -lX11
+LDFLAGS	= -lm
+MAKE	= /usr/bin/make

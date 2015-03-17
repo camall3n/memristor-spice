@@ -1,0 +1,2 @@
+LDFLAGS -lm
+LIBX -L/usr/X11/lib/ -lXaw -lXt -lXext -lXmu -lX11

@@ -1,0 +1,38 @@
+###########
+# Copyright 1991 Regents of the University of California.  All rights reserved.
+###########
+
+CFILES		= mem.c memask.c memdel.c memdest.c memload.c memmask.c \
+		  memmdel.c memmpar.c memnoise.c memparam.c mempzld.c \
+		  memsacl.c memsetup.c memsload.c memsprt.c memsset.c \
+		  memtemp.c timelist.c
+
+COBJS		= mem.o memask.o memdel.o memdest.o memload.o memmask.o \
+		  memmdel.o memmpar.o memnoise.o memparam.o mempzld.o \
+		  memsacl.o memsetup.o memsload.o memsprt.o memsset.o \
+		  memtemp.o timelist.o
+
+MODULE		= mem
+LIBRARY		= dev
+MODULE_TARGET	= $(OBJLIB_DIR)/$(MODULE)
+
+NUMBER		= 1
+
+mem.o: mem.c
+memask.o: memask.c
+memdel.o: memdel.c
+memdest.o: memdest.c
+memload.o: memload.c
+memmask.o: memmask.c
+memmdel.o: memmdel.c
+memmpar.o: memmpar.c
+memnoise.o: memnoise.c
+memparam.o: memparam.c
+mempzld.o: mempzld.c
+memsacl.o: memsacl.c
+memsetup.o: memsetup.c
+memsload.o: memsload.c
+memsprt.o: memsprt.c
+memsset.o: memsset.c
+memtemp.o: memtemp.c
+timelist.o: timelist.c

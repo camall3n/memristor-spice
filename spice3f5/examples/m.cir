@@ -1,0 +1,12 @@
+Basic M circuit
+a1   2 1  mem1 r0=500
+vin  1 0  sin(0 .5 5) DC 0
+vtst 2 0  DC 0
+.MODEL mem1 a ron=100 roff=1000 l=200n uvac=2E-12 wexp=0
+
+.control
+tran  0.0001 1 0 .0005
+plot i(vtst) vs v(1)
+.endc
+
+.end

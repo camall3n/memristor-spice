@@ -1,0 +1,19 @@
+cl /I..\..\..\include /c mem.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memask.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memdel.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memdest.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memload.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memmask.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memmdel.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memmpar.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memnoise.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memparam.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c mempzld.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memsacl.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memsetup.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memsload.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memsprt.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memsset.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c memtemp.c >> ..\..\..\msc.out
+cl /I..\..\..\include /c timelist.c >> ..\..\..\msc.out
+lib ..\..\dev1.lib @response.lib >> ..\..\..\msc.out
